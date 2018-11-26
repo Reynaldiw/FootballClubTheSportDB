@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Football Club (The SportDB)</string>
+    <string name="teams" />
+    <string name="favorites" />
 
     <string-array name="league">
         <item>English Premier League</item>

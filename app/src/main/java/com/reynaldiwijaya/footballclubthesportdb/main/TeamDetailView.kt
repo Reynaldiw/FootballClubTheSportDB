@@ -2,8 +2,8 @@ package com.reynaldiwijaya.footballclubthesportdb.main
 
 import com.reynaldiwijaya.footballclubthesportdb.model.Team
 
-interface MainView {
+interface TeamDetailView {
     fun showLoading()
     fun hideLoading()
-    fun showTeamList(data: List<Team>)
+    fun showTeamDetail(data: List<Team>)
 }

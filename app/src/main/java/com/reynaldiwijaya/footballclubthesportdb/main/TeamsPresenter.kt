@@ -7,7 +7,7 @@ import com.reynaldiwijaya.footballclubthesportdb.network.TheSportDBApi
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 
-class MainPresenter (private val view: MainView, private val apiRepository: ApiRepository, private val gson: Gson) {
+class TeamsPresenter (private val view: TeamsView, private val apiRepository: ApiRepository, private val gson: Gson) {
     fun getTeamList(league: String?){
         //Behaviour ketika presenter sedang menunggu respon, progressbar akan ditampilkan
         view.showLoading()
